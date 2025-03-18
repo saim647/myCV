@@ -7,72 +7,75 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="cv-container">
+    <div class="cv-container" itemscope itemtype="http://schema.org/Person">
         <!-- Header Section -->
         <header class="header">
-            <h1>Saim Sikandar</h1>
-            <p>Web Developer & Designer</p>
+            <h1 itemprop="name">SAIM SIKANDAR</h1>
+            <p itemprop="jobTitle">Web Designer & Developer</p>
         </header>
 
         <!-- Section 1: Contact Details -->
         <section class="section contact-details">
-            <h2>Contact Details</h2>
+            <h2>CONTACT</h2>
             <ul>
-                <li><strong>Phone:</strong> +923475021940</li>
-                <li><strong>Email:</strong> saimsikandarcs101@gmail.com</li>
-                <li><strong>Address:</strong> Farooq Colony Sargodha</li>
+                <li><strong>Phone:</strong> <span itemprop="telephone">+923475021940</span></li>
+                <li><strong>Email:</strong> <span itemprop="email">saimsikandarcs101@gmail.com</span></li>
+                <li><strong>Address:</strong> <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                    <span itemprop="streetAddress">Farooq Colony</span>,
+                    <span itemprop="addressLocality">Sargodha</span>
+                </span></li>
             </ul>
         </section>
 
         <!-- Section 2: Objective -->
         <section class="section objective">
-            <h2>Objective</h2>
-            <p>I'm seeking a challenging and a responsible position where my education , abilities and potential can be fully and effectively utilized for the success of the organization as well as which offers opportunities of growth.</p>
+            <h2>OBJECTIVE</h2>
+            <p itemprop="description">I'm seeking a challenging and a responsible position where my education, abilities, and potential can be fully and effectively utilized for the success of the organization as well as which offers opportunities of growth.</p>
         </section>
 
         <!-- Section 3: Personal Details -->
         <section class="section personal-details">
-            <h2>Personal Details</h2>
+            <h2>PERSONAL DETAILS</h2>
             <ul>
-                <li><strong>Date of Birth:</strong> 01/09/2002</li>
-                <li><strong>Marital Status:</strong> Single</li>
-                <li><strong>Nationality:</strong> Pakistani</li>
+                <li><strong>Date of Birth:</strong> <span itemprop="birthDate">2002-09-01</span></li>
+                <li><strong>Marital Status:</strong> <span itemprop="maritalStatus">Single</span></li>
+                <li><strong>Nationality:</strong> <span itemprop="nationality">Pakistani</span></li>
             </ul>
         </section>
 
         <!-- Section 4: Education -->
         <section class="section education">
-            <h2>Education</h2>
+            <h2>EDUCATION</h2>
             <ul>
-                <li><b>University of Sargodha</b>
-                       2021-2025
-                       BSCS</li>
-                <li><b>Punjab College Sargodha</b>
-                      2018-2020
-                      Fsc Pre Engineering
+                <li itemprop="alumniOf" itemscope itemtype="http://schema.org/EducationalOrganization">
+                    <strong itemprop="name">University of Sargodha</strong>
+                    <span itemprop="description">BSCS</span> (2021-2025)
                 </li>
-                <li><b>Fazmic Sargodha</b>
-                    2016-2018
-                    Matric
-              </li>
-
+                <li itemprop="alumniOf" itemscope itemtype="http://schema.org/EducationalOrganization">
+                    <strong itemprop="name">Punjab College Sargodha</strong>
+                    <span itemprop="description">Fsc Pre Engineering</span> (2018-2020)
+                </li>
+                <li itemprop="alumniOf" itemscope itemtype="http://schema.org/EducationalOrganization">
+                    <strong itemprop="name">Fazmic Sargodha</strong>
+                    <span itemprop="description">Matric</span> (2016-2018)
+                </li>
             </ul>
         </section>
 
         <!-- Section 5: Skills -->
         <section class="section skills">
-            <h2>Skills</h2>
+            <h2>SKILLS</h2>
             <ul>
-                <li>HTML, CSS, JavaScript</li>
-                <li>Python, Java</li>
-                <li>Project Management</li>
+                <li itemprop="knowsAbout">HTML, CSS, JavaScript</li>
+                <li itemprop="knowsAbout">Python, Java</li>
+                <li itemprop="knowsAbout">Project Management</li>
             </ul>
         </section>
 
         <!-- Section 6: References -->
         <section class="section references">
-            <h2>References</h2>
-            <p>Reference can be furnished on demand</p>
+            <h2>REFERENCE</h2>
+            <p>Reference can be furnished on demand.</p>
         </section>
     </div>
 </body>
