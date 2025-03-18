@@ -1,0 +1,128 @@
+/* styles.css */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #f6faf55d, #c3cfe2);
+    color: #333;
+}
+
+.cv-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 30px;
+    background: #e3f2fd; /* Bright, soft blue background */
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: #fff;
+    border-radius: 10px;
+}
+
+.header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.header p {
+    font-size: 1.2em;
+    margin: 5px 0 0;
+    font-weight: 300;
+}
+
+.section {
+    margin-bottom: 25px;
+}
+
+.section h2 {
+    font-size: 1.8em;
+    color: #2575fc;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #2575fc;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.section p, .section ul {
+    margin: 0 0 10px 20px;
+    color: #555;
+}
+
+.section ul {
+    list-style-type: square;
+}
+
+.section ul li {
+    margin-bottom: 8px;
+}
+
+/* Styling for the contact-details section */
+.contact-details ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.contact-details ul li {
+    margin-bottom: 10px;
+}
+
+.contact-details ul li strong {
+    color: #2575fc;
+}
+
+/* Styling for the objective section */
+.objective p {
+    font-style: italic;
+    color: #666;
+}
+
+/* Styling for the personal-details section */
+.personal-details ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.personal-details ul li {
+    margin-bottom: 10px;
+}
+
+.personal-details ul li strong {
+    color: #2575fc;
+}
+
+/* Styling for the education section */
+.education ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.education ul li {
+    margin-bottom: 10px;
+}
+
+.education ul li strong {
+    color: #2575fc;
+}
+
+/* Styling for the skills section */
+.skills ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.skills ul li {
+    margin-bottom: 10px;
+}
+
+/* Styling for the references section */
+.references p {
+    font-style: italic;
+    color: #666;
+}
